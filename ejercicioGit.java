@@ -36,7 +36,10 @@ public class ejercicioGit {
 
 
                 case 3:
-
+                    System.out.println("Introduce un número para multiplicar: ");
+                    num1 = sc.nextInt();
+                    System.out.println("Introduce el segundo número para multiplicar: ");
+                    num2 = sc.nextInt();
 
                 case 4:
 
