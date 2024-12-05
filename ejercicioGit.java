@@ -39,7 +39,10 @@ public class ejercicioGit {
                     break;
 
                 case 2:
-
+                    System.out.println("Introduce un número para restar: ");
+                    num1 = sc.nextInt();
+                    System.out.println("Introduce el segundo número para restar: ");
+                    num2 = sc.nextInt();
 
                 case 3:
 
