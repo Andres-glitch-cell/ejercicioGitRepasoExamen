@@ -30,7 +30,12 @@ public class ejercicioGit {
 
 
                 case 1:
+                    System.out.println("Elige un número para sumar");
+                    num1= sc.nextInt();
+                    System.out.println("Elige un segundo número para sumar");
+                    num2= sc.nextInt();
 
+                    break;
 
                 case 2:
 
