@@ -53,7 +53,12 @@ public class ejercicioGit {
                     System.out.println("El resultado de tu multiplicación es "+resultado);
 
                 case 4:
-
+                    System.out.println("Introduce un número para dividir: ");
+                    num1 = sc.nextInt();
+                    System.out.println("Introduce el segundo número para dividir: ");
+                    num2 = sc.nextInt();
+                    resultado = num1 / num2;
+                    System.out.println("El resultado de tu división es "+resultado);
 
                 case 5:
                     System.out.println("Saliendo...");
