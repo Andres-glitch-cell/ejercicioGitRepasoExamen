@@ -34,7 +34,8 @@ public class ejercicioGit {
                     num1= sc.nextInt();
                     System.out.println("Elige un segundo número para sumar");
                     num2= sc.nextInt();
-
+                    resultado = num1 + num2;
+                    System.out.println("El resultado de tu suma es "+resultado);
                     break;
 
                 case 2:
