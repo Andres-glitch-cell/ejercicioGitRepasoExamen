@@ -33,7 +33,12 @@ public class ejercicioGit {
 
 
                 case 2:
-
+                    System.out.println("Introduce un número para restar: ");
+                    num1 = sc.nextInt();
+                    System.out.println("Introduce el segundo número para restar: ");
+                    num2 = sc.nextInt();
+                    resultado = num1 + num2;
+                    System.out.println("El resultado de tu resta es "+resultado);
 
                 case 3:
 
